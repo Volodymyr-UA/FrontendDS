@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+/* Design class settings start */
+
+.design__color--apricot
+{
+    background-color: rgb(248, 243, 238);
+}
+
+.design__color--peach
+{
+    background-color: rgb(251, 237, 223);
+}
+
+.design__color--raspberry
+{
+    background-color: rgb(248, 243, 238);
+}
+
+.level__color--black
+{
+    background-color: rgb(0, 0, 0);
+}
+
+.design__line--black:after 
+{
+    display: block;
+    content: "";
+    height: 3px;
+    width: 20px;
+    background-color: rgb(0, 0, 0);
+    margin: 20px auto 0px;
+}
+
+/* Design class settings end */
+
+
+/* Canvas settings start*/
+
+.foundation 
+{
+    font-family: "Roboto", sans-serif;    
+}
+
+/* Canvas settings end*/
+
+/* Profile section start */
+
+.profile
+{
+width: 100%;
+height: 40%;
+display: flex;
+flex-direction: column;
+}
+
+.profile__img
+{
+    height: 250px;
+    width: 250px;
+    background-image: url(../img/foto-for-CV.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Profile section end */
+
+
+
